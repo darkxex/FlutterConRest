@@ -341,7 +341,7 @@ bool execu = false;
                    }
                   }
                   print (year.toString() + " " + value.toString() + "\n"+ year2.toString() + " " + value2.toString());
-                  final data = datospasados(year,year2,value,value2,"Hola");
+                  final data = datospasados(year,year2,value,value2, CountryOneCode + ("(Blue) / ") + CountryTwoCode + "(Red)" );
                   Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => SimpleTimeSeriesChart(   graficofinal(),
